@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 
-inline int cal_points(std::vector<std::string> operations) {
+inline int cal_points(const std::vector<std::string>& operations) {
     std::vector<int> stack;
 
     for (const auto& operation : operations) {
