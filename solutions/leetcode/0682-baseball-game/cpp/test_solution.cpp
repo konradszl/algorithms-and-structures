@@ -15,6 +15,6 @@ TEST_CASE("0682 Baseball Game") {
     }
 
     SECTION("LeetCode example 3") {
-        REQUIRE(cal_points({"1"}) == 1);
+        REQUIRE(cal_points({"1", "C"}) == 0);
     }
 }

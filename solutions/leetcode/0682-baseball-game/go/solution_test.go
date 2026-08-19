@@ -15,6 +15,16 @@ func TestCalPoints(t *testing.T) {
 			[]string{"5", "2", "C", "D", "+"},
 			30,
 		},
+		{
+			"leetcode example 2",
+			[]string{"5", "-2", "4", "C", "D", "9", "+", "+"},
+			27,
+		},
+		{
+			"leetcode example 3",
+			[]string{"1", "C"},
+			0,
+		},
 	}
 
 	for _, test := range tests {

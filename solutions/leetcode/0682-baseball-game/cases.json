@@ -8,7 +8,7 @@
     "expected": 27
   },
   {
-    "input": [["1"]],
-    "expected": 1
+    "input": [["1", "C"]],
+    "expected": 0
   }
 ]
