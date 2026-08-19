@@ -1,0 +1,4 @@
+platform: leetcode
+difficulty: easy
+tags: ["mid level", "array", "stack", "simulation"]
+languages: [python, go, cpp]

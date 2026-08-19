@@ -10,7 +10,7 @@ LANG_FILES = {
         "test_solution.py"
     ],
     "cpp": [
-        "solution.cpp"
+        "solution.hpp",
         "test_solution.cpp"
     ],
     "go": [
