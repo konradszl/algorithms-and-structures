@@ -38,7 +38,7 @@ def main() -> None:
 
     problem_dir.mkdir(parents=True)
 
-    (problem_dir / "problem.tml").write_text(
+    (problem_dir / "problem.yml").write_text(
         f"platform: {args.platform}\n"
         f"difficulty: {args.difficulty}\n" 
         f"tags: [{args.tags}]\n"
