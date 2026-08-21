@@ -2,7 +2,7 @@
 
 #include <vector>
 
-inline int find_max_consecutive_ones(std::vector<int> nums) {
+inline int find_max_consecutive_ones(const std::vector<int>& nums) {
     int result = 0;
     int count = 0;
 

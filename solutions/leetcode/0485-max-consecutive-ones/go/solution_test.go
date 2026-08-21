@@ -8,7 +8,7 @@ type testCase struct {
 	want int
 }
 
-func TestSolve(t *testing.T) {
+func TestFindMaxConsecutiveOnes(t *testing.T) {
 	tests := []testCase{
 		{
 			"leetcode example 1",

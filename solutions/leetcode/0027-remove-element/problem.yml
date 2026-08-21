@@ -1,0 +1,4 @@
+platform: leetcode
+difficulty: easy
+tags: [array, two pointers]
+languages: [python, go, cpp]
