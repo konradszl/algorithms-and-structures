@@ -1,10 +1,9 @@
 import json
 
 from pathlib import Path
-from solution import solve
 
 CASES = json.loads((Path(__file__).parent.parent / "cases.json").read_text())
 
-def test_cases():
+def test_cases(solution):
     for case in CASES:
-        assert solve(*case["input"]) == case["expected"]
+        assert solution.solve(*case["input"]) == case["expected"]
