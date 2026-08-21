@@ -1,5 +1,5 @@
 package solution
 
-func Solve(/* args */) {
-    
+func solve( /* args */ ) {
+
 }

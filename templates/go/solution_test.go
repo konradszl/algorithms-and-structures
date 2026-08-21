@@ -1,18 +1,20 @@
 package solution
 
-struct testCase type {
-    name string
-    // input
+import "testing"
+
+type testCase struct {
+	name string
+	// input
 }
 
 func TestSolve(t *testing.T) {
-    tests := []testCase{
-    	// {"example 1", ...},
-    }
+	tests := []testCase{
+		// {"example 1", ...},
+	}
 
 	for _, test := range tests {
-	    t.Run(test.name, func(t *testing.T) {
-	    
-	    })
-    }
+		t.Run(test.name, func(t *testing.T) {
+
+		})
+	}
 }
