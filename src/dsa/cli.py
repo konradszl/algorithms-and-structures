@@ -1,6 +1,6 @@
 import argparse
 
-from dsa import readme, scaffold
+from dsa import render, scaffold
 from dsa.paths import ROOT
 
 DIFFICULTIES = ("easy", "medium", "hard", "unknown")
@@ -34,7 +34,7 @@ def _new(args: argparse.Namespace) -> None:
 
 def _readme(args: argparse.Namespace) -> None:
     try:
-        changed = readme.write(check=args.check)
+        changed = render.write(check=args.check)
     except ValueError as error:
         raise SystemExit(f"dsa readme: {error}") from error
 
