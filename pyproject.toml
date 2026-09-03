@@ -42,3 +42,6 @@ select = [
     "B",
     "SIM"
 ]
+
+[tool.pyright]
+typeCheckingMode = "standard"
