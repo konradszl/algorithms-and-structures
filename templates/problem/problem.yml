@@ -1,0 +1,7 @@
+id: {{id}}
+title: {{title}}
+url: {{url}}
+platform: {{platform}}
+difficulty: {{difficulty}}
+patterns: [{{patterns}}]
+added: {{added}}
